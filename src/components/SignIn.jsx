@@ -42,7 +42,7 @@ const SignIn = ({open, setOpen}) => {
        await auth.signOut();
        setUserDetails();
        toast.success("Logged out Successfully",{position:'top-center'})
-       navigate('/signin');
+       navigate('/Task-Management/signin');
       } catch (error) {
         console.log(error)
       }

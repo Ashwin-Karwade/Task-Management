@@ -17,7 +17,7 @@ const Loginpage = () => {
          if(result.user){
             toast.success("User Logged In Successfully",{position:"top-center"})
          }
-         navigate('/');
+         navigate('/Task-Management/');
       })
 
       }   
