@@ -125,7 +125,7 @@ const handleSubmitTask= async(e)=>{
 
   return (
    <div className="fixed inset-0 bg-black bg-opacity-25  z-50 py-1 ">
-    <div className="maindiv sm:w-[40%] w-[92%] mx-auto rounded-2xl border shadow-sm sm:my-5 my-5 bg-white">
+    <div className="maindiv sm:w-[40%] w-[92%] mx-auto rounded-2xl border shadow-sm sm:my-7 my-5 bg-white">
      <div className="flex bg-purple-600/10 rounded-t-2xl justify-between items-center border-b px-4 py-4 shadow-sm ">
       <h1 className="sm:text-[20px] text-[17px] font-semibold">Create Task</h1>
       <ImCross onClick={()=>setOpenCreate(false)} className="size-3 text-black cursor-pointer"/>

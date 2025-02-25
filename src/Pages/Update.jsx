@@ -19,7 +19,6 @@ const Update = ({item, setOpenUpdate, openUpdate}) =>{
   }
    
 
-  // const {displayTaskData, setDisplayTaskData, taskDataArray, setTaskDataArray} = useContext(TaskContext)
 
   const [uploadFile, setUploadfile] = useState([])
   const [activeBtn, setActiveBtn] = useState('DETAILS');
@@ -94,7 +93,7 @@ const handleSubmitUpdateData = async ()=>{
   return (
     <>
        
-        <div className="bg-black bg-opacity-10  inset-0 z-50 fixed  sm:py-14 py-10">
+        <div className="bg-black bg-opacity-10  inset-0 z-50 fixed  sm:py-14 py-8">
         <div className="maindiv sm:w-[70%] w-[92%] mx-auto rounded-3xl border shadow-sm bg-white">
             <div className=" border-b px-4 bg-purple-600/10 py-5 shadow-sm ">
              <ImCross onClick={()=>setOpenUpdate(false)} className="size-3 cursor-pointer place-self-end text-black"/>
