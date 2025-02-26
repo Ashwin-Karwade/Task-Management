@@ -41,8 +41,8 @@ const SignIn = ({open, setOpen}) => {
       try {
        await auth.signOut();
        setUserDetails();
-       toast.success("Logged out Successfully",{position:'top-center'})
-       navigate('/Task-Management/signin/');
+       toast.success("Logged out Successfully", {position:'top-center'})
+       navigate('/Task-Management/');
       } catch (error) {
         console.log(error)
       }
@@ -61,9 +61,9 @@ const SignIn = ({open, setOpen}) => {
          <p className="sm:text-[20px] text-[15px] tracking-wide ">TaskBuddy</p>
       </div>      
     
-       <div className="flex gap-2 items-center">
-        <div onClick={logOut} className='sm:hidden block hover:bg-orange-100 active:bg-orange-100 bg-orange-200 text-gray-700  py-0.5 cursor-pointer px-1 ring-1 rounded-lg ring-gray-300'>
-        <BiLogOutCircle />
+       <div className="flex gap-3 items-center">
+        <div onClick={logOut} className='sm:hidden block hover:bg-orange-100 active:bg-orange-100  text-gray-700  cursor-pointer   rounded-lg '>
+        <BiLogOutCircle className='size-6 text-gray-400' />
         </div>
        <img src={userDetails.photo} className="sm:w-10 w-9  sm:h-10 h-9 sm:border-none border sm:rounded-full rounded-full" alt={userDetails.userName}/>
        <p className="text-[12px] sm:block hidden">{userDetails.userName}</p>

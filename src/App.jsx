@@ -10,11 +10,11 @@ function App(){
 
   const router = createBrowserRouter([
     {
-      path:'/signin/',
+      path:'/Task-Management/',
       element:<Loginpage/>
     },
     {
-    path:'/Task-Management/',
+    path:'/Task-Management/home',
     element: <Home/>
     },
 
