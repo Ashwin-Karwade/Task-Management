@@ -55,10 +55,10 @@ const SignIn = ({open, setOpen}) => {
 <>
 <div className='sm:px-8 '>
 
-    <div className="flex justify-between sm:h-10 h-14 sm:py-0 py-1 sm:px-0 px-2 sm:text-black  sm:bg-white bg-purple-800 text-gray-300    ">
+    <div className="flex justify-between sm:h-10 h-14 sm:py-0 py-1 sm:px-0 px-2 sm:text-purple-800  text-gray-300 sm:bg-white bg-purple-800    ">
       <div className="flex items-center gap-1">
-         <LuClipboardList className="sm:size-5 size-6"/>
-         <p className="sm:text-[20px] text-[16px] tracking-wide font-bold ">TaskBuddy</p>
+         <LuClipboardList className="sm:size-6 size-6"/>
+         <p className="sm:text-[20px] text-[17px] tracking-wide font-bold ">TaskBuddy</p>
       </div>      
     
        <div className="flex gap-3 items-center">
