@@ -74,10 +74,10 @@ setOpen(!open)
         <div className='1Div flex gap-3 items-center'>
             <div className='1Div1st flex gap-3 border rounded-2xl text-white items-center px-5 py-2'>
                 <p className='text-[11px]'>{selected.length} Task Selected</p>
-                <ImCross onClick={remSelTask} className='size-2'/>
+                <ImCross onClick={remSelTask} className='size-2 cursor-pointer hover:text-gray-400'/>
             </div>
             <div className='1Div2nd items-center'>
-                <TbCopyCheck onClick={selectAllTask} className='text-white size-5 '/>
+                <TbCopyCheck onClick={selectAllTask} className='text-white size-5 cursor-pointer hover:text-gray-400'/>
             </div>
         </div>
         <div className='2div flex gap-3'>
